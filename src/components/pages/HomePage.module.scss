@@ -1,0 +1,95 @@
+.HomePage {
+	margin-top: 40px;
+	iframe {
+		width: 640px;
+		height: 300px;
+	}
+	.content {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 40px;
+		.cards {
+			h2 {
+				width: 370px;
+			}
+			.card {
+				width: 370px;
+				height: 230px;
+				border-radius: 20px;
+				object-fit: cover;
+				object-position: center;
+			}
+			.url {
+				width: 40px;
+				height: 40px;
+				object-fit: cover;
+				object-position: center;
+				border-radius: 50px;
+			}
+			.text {
+				display: flex;
+				gap: 15px;
+
+				.sub {
+					font-size: 13px;
+				}
+			}
+			.buttons {
+				display: flex;
+				gap: 20px;
+				button {
+					width: 60px;
+					height: 25px;
+					background-color: rgba(0, 0, 0, 0.463);
+					color: white;
+					border: none;
+					border-radius: 6px;
+				}
+			}
+		}
+	}
+	.inputsEdit {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		input {
+			width: 370px;
+			height: 35px;
+			border-radius: 10px;
+			background-color: rgba(169, 169, 169, 0.585);
+		}
+
+		.editButton {
+			display: flex;
+			button {
+				width: 100px;
+				height: 30px;
+				background-color: grey;
+				color: white;
+				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+				font-size: 15px;
+				border: none;
+				border-radius: 12px;
+			}
+		}
+	}
+	.categories {
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-bottom: 40px;
+		display: flex;
+		align-items: center;
+		gap: 40px;
+		button {
+			width: 150px;
+			height: 40px;
+			background-color: grey;
+			color: white;
+			font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+			font-size: 20px;
+			border: none;
+			border-radius: 12px;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.Header {
+	margin-top: 30px;
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 200px;
+		.logo {
+			width: 130px;
+		}
+		.inputSearch {
+			width: 500px;
+			height: 45px;
+			border-radius: 50px;
+			font-size: 20px;
+		}
+		.buttonVoice {
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			img {
+				width: 20px;
+			}
+		}
+		.addVideo {
+			width: 100px;
+			height: 40px;
+			background-color: rgba(0, 0, 0, 0.463);
+			color: white;
+			border: none;
+			border-radius: 6px;
+		}
+		.addVideoInput {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			.inputsAdd {
+				width: 450px;
+				height: 50px;
+			}
+			.addButton {
+				width: 150px;
+				height: 40px;
+				cursor: pointer;
+				background: #007bff;
+				color: white;
+				border: none;
+				padding: 10px;
+				border-radius: 5px;
+				margin-top: 10px;
+			}
+		}
+	}
+}
